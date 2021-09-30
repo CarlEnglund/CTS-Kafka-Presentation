@@ -31,7 +31,7 @@ Then run the following the command:
 /opt/bitnami/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic cts-topic --if-not-exists --partitions 3
 ```
 - **Start the frontend app**
-Make sure you have Node installed. You need to be in the correct directory to run the below command.
+Remember to set the Google Maps API-key as an environment variable. Make sure you have Node installed. You need to be in the correct directory to run the below command.
 ```
 yarn start
 ```

@@ -25,7 +25,7 @@ public class ApplicationConfiguration{
                 "localhost:9092");
         props.put(
                 ConsumerConfig.GROUP_ID_CONFIG,
-                "test-consumer-group");
+                "demo-consumer-group");
         props.put(
                 ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,
                 "earliest");

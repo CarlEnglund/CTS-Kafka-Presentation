@@ -12,10 +12,10 @@ const App = () => {
     },
     zoom: 5
   };
-  const [lat, setLatitutude] = useState(59)
-  const [lon, setLongitude] = useState(18)
-  const [secondLat, setSecondLatitude] = useState(59)
-  const [secondLon, setSecondLongitude] = useState(25)
+  const [lat, setLatitutude] = useState(58)
+  const [lon, setLongitude] = useState(17)
+  const [secondLat, setSecondLatitude] = useState(57)
+  const [secondLon, setSecondLongitude] = useState(11)
 
   let onConnected = () => {
     console.log("Connected!!")
